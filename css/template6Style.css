@@ -1,0 +1,414 @@
+ body
+ { 
+     background: url("../images/background.jpg") no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     margin-top: 100px;
+ }
+
+ .label_1
+ {
+  font-size: 70px;
+  font-family: impact;
+  color: yellow;
+  text-align: left;
+  text-shadow: 2px 2px 4px black;
+ }
+
+ .label_2
+ {
+  font-size: 40px;
+  font-family: impact;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;  
+ }
+
+ .logo
+ {
+  width: 100%;
+ }
+
+ .btn_home
+ {
+  margin-right: 5px;
+  position: relative;
+  vertical-align: top;
+  width: 146px;
+  height: 35px;
+  padding: 0;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/button1b.jpg");
+  border: 0;
+
+ }
+
+  .btn_gallery
+ {
+  margin-right: 5px;
+  position: relative;
+  vertical-align: top;
+  width: 146px;
+  height: 35px;
+  padding: 0;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/button1b.jpg");
+  border: 0;
+
+ }
+
+  .btn_mechanics
+ {
+  margin-right: 5px;
+  position: relative;
+  vertical-align: top;
+  width: 146px;
+  height: 35px;
+  padding: 0;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/button1b.jpg");
+  border: 0;
+
+ }
+
+  .btn_upload
+ {
+  margin-right: 5px;
+  position: relative;
+  vertical-align: top;
+  width: 146px;
+  height: 35px;
+  padding: 0;
+  font-size: 17px;
+  color: green;
+  text-align: center;
+  background-image: url("../images/button3a.jpg");
+  border: 0;
+ }
+
+ .div_entries
+ {
+  background: #ebebeb;
+  margin-top: 10px;
+  overflow-y:scroll;
+  max-height: 380px;
+ }
+
+ .label_3
+ {
+  font-style: impact;
+  font-weight: bold;
+  font-size: 30px;
+  color: #036e39;
+  text-shadow: 2px 2px 4px yellow;
+  text-align: center; 
+ }
+
+ .image1
+ {
+  margin: 0px 5px 10px 10px;
+ }
+
+ .image2
+ {
+  margin: 0px 5px 10px 5px;
+ }
+
+  .image3
+ {
+  margin: 0px 5px 10px 5px;
+ }
+
+ .image4
+ {
+  margin: 0px 5px 10px 10px;
+ }
+
+  .image5
+ {
+  margin: 0px 5px 10px 5px;
+ }
+
+ .image1b
+ {
+  width: 100%;
+  margin-top: 40px;
+ }
+
+
+ .image2b
+ {
+  width: 100%;
+  margin-top: 40px;
+ }
+
+
+  .image3b
+ {
+  width: 100%;
+  margin-top: 40px;
+ }
+
+ .modal-backdrop
+ {
+  opacity: 0.1;
+ }
+
+
+
+  .image4b
+ {
+  width: 100%;
+  margin-top: 40px;
+ }
+
+
+  .image5b
+ {
+  width: 100%;
+  margin-top: 40px;
+ }
+
+ .image6
+ {
+  margin: 0px 5px 10px 5px;
+ }
+
+  .image6b
+ {
+  width: 100%;
+  margin-top: 40px;
+ }
+
+ .modal-content
+{
+  background: #14543c;
+  border-color: 3px;
+}
+
+.btn_close
+ {
+  position: relative;
+  vertical-align: top;
+  width: 5%;
+  height: 25px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #cdcdcc;
+  border-radius: 3px;
+  border:0;
+  margin-right: 10px;
+  float: right;
+ }
+
+ .image_title_label
+ {
+  font-style: impact;
+  font-size: 30px;
+  font-weight: bold;
+  background: #cdcdcc;
+  padding: 10px 10px 10px 10px;
+ }
+
+ @media only screen and (max-width : 355px) {
+
+  .logo1
+  {
+    width: 50%;
+  }
+
+   .label_1
+ {
+  font-size: 40px;
+  font-family: impact;
+  color: yellow;
+  text-align: left;
+  text-shadow: 2px 2px 4px black;
+ }
+
+  .label_2
+ {
+  font-size: 20px;
+  font-family: impact;
+  color: white;
+  text-align: left;
+  text-shadow: 2px 2px 4px black;  
+ }
+
+ .label_3
+ {
+  font-style: impact;
+  font-weight: bold;
+  font-size: 15px;
+  color: #036e39;
+  text-shadow: 2px 2px 4px yellow;
+  text-align: center; 
+ }
+
+  .image_title_label
+ {
+  font-style: impact;
+  font-size: 15px;
+  font-weight: bold;
+  background: #cdcdcc;
+  padding: 10px 10px 10px 10px;
+ }
+
+  .logo
+ {
+  width: 70%;
+  position: relative;
+  left: 130px;
+  top: -150px;
+ }
+
+  .btn_home
+ {
+  margin-right: 6px;
+  margin-top: -150px;
+  position: relative;
+  vertical-align: top;
+  width: 68px;
+  height: 25px;
+  padding: 0;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/button1a.jpg");
+  border: 0;
+
+ }
+
+  .btn_gallery
+ {
+  margin-right: 6px;
+  margin-top: -150px;
+  position: relative;
+  vertical-align: top;
+  width: 68px;
+  height: 25px;
+  padding: 0;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/button1a.jpg");
+  border: 0;
+
+ }
+
+  .btn_mechanics
+ {
+  margin-right: 6px;
+  margin-top: -150px;
+  position: relative;
+  vertical-align: top;
+  width: 68px;
+  height: 25px;
+  padding: 0;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/button1a.jpg");
+  border: 0;
+
+ }
+
+  .btn_upload
+ {
+  margin-right: 6px;
+  margin-top: -150px;
+  position: relative;
+  vertical-align: top;
+  width: 68px;
+  height: 25px;
+  padding: 0;
+  font-size: 10px;
+  color: green;
+  text-align: center;
+  background-image: url("../images/button3a.jpg");
+  border: 0;
+ }
+
+ .btn_close
+ {
+  position: relative;
+  vertical-align: top;
+  width: 5%;
+  height: 15px;
+  padding: 0;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #cdcdcc;
+  border-radius: 3px;
+  border:0;
+  margin-right: 10px;
+  float: right;
+ }
+
+  .image1
+ {
+  margin: 0px 5px 10px 10px;
+  width: 27%;
+ }
+
+ .image2
+ {
+  margin: 0px 5px 10px 5px;
+  width: 27%;
+ }
+
+  .image3
+ {
+  margin: 0px 5px 10px 5px;
+  width: 27%;
+ }
+
+ .image4
+ {
+  margin: 0px 5px 10px 10px;
+  width: 27%;
+ }
+
+  .image5
+ {
+  margin: 0px 5px 10px 5px;
+  width: 27%;
+ }
+
+
+  .image6
+ {
+  margin: 0px 5px 10px 5px;
+  width: 27%;
+ }
+
+  .div_entries
+ {
+  background: #ebebeb;
+  margin-top: -140px;
+  overflow-y:scroll;
+  max-height: 380px;
+ }
+
+
+ }
+
+ .modal-backdrop.fade.in
+ {
+  opacity: 0;
+ }
